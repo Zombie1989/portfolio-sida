@@ -7,7 +7,7 @@ function Footer() {
                 </svg>
             </div>
             <footer className="footer">
-                <p>Hej hej</p>
+                
             </footer>
         </div>
     )

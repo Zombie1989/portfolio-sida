@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import DefaultLayout from './layouts/DefaultLayout'
 import BlankLayout from './layouts/BlankLayout'
 
-import Header from './components/Header'
 import Home from './components/Home'
 import About from './/components/About'
 import NotFound from './components/pages/NotFound'
