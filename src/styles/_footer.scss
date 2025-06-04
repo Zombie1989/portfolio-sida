@@ -1,0 +1,16 @@
+.footer-wave {
+  width: 100%;
+  height: 60px;
+  background: #000; // matcha footer-bakgrund
+  line-height: 0;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  path {
+    fill: var(--accent); // exempelvis röd (#E63946)
+  }
+}

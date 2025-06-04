@@ -1,0 +1,22 @@
+.notfound {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  padding: 2rem;
+
+  h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+  }
+
+  p {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+  }
+}
