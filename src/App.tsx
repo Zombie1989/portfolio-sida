@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import DefaultLayout from './layouts/DefaultLayout'
 import BlankLayout from './layouts/BlankLayout'
+import 'bootstrap/dist/css/bootstrap.css';
 
 import Home from './components/Home'
 import About from './/components/About'
@@ -8,7 +9,7 @@ import NotFound from './components/pages/NotFound'
 //import Projects from './components/Projects'
 //import Contact from './components/Contact'
 //import Footer from './components/Footer'
-import './App.css'
+import './styles/main.scss'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {

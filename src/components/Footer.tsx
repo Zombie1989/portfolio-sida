@@ -3,7 +3,9 @@ function Footer() {
         <div>
             <div className="footer-wave">
                 <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                    <path d="M0,120 L0,60 Q360,0 720,60 T1440,60 L1440,120 Z" />
+                    <g transform="scale(-1, 1) translate(-1440, 0)">
+                        <path d="M0,120 L0,60 Q360,0 720,60 T1440,60 L1440,120 Z" />
+                    </g>                
                 </svg>
             </div>
             <footer className="footer">
